@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Noto+Sans+Mono:wght@600&family=Poppins:wght@400;700&display=swap");
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(22, 19, 19);
+  color: whitesmoke !important;
+  flex-direction: column;
+}
+
+.main-header {
+  font-family: "Montserrat", sans-serif;
+}
+
+.create-form label {
+  color: whitesmoke !important;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px !important;
+}
