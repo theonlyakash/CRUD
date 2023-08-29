@@ -31,10 +31,14 @@ export default function Read() {
 
   const onDelete = (id) => {
     axios.delete(`https://60fbca4591156a0017b4c8a7.mockapi.io/avatar/${id}`)
-      .then(() => {
-        getData();
+      .then((getData) => {
+        setAPIData((prevState) => {
+          return prevState.filter((item) => item.id != id);
+        });
+        alert("This is deleted");
       });
   };
+
 
   return (
     <div>
